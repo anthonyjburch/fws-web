@@ -42,7 +42,7 @@ jobs:
         with:
           azcliversion: 2.0.72
           inlineScript: |
-            az cdn endpoint purge --content-paths  "/*" --profile-name "fatwreckstock" --name "fatwreckstock" --resource-group "fatwreckstock"
+            az cdn endpoint purge --content-paths  "/*" --profile-name "fatwreckstock" --name "fatwreckstock" --resource-group "fatwreckstock" --no-wait
       - name: logout
         run: |
               az logout
