@@ -1,10 +1,8 @@
 name: Build and deploy Angular app to Azure Storage Static Website - fatwreckstock
 
 on:
-  push:
-    branches:
-      - main
-  workflow_dispatch:
+    push:
+        branches: [ main ]
 
 jobs:
   build:
@@ -14,8 +12,10 @@ jobs:
         node-version: [12.x]
 
     steps:
-      - uses: actions/checkout@v1
-
+      - uses: actions/checkout@v2
+      - uses: azure/login@v1
+        with:
+            creds: ${{ secrets.AZURE_CREDENTIALS }}
       - name: Cache node modules
         uses: actions/cache@v1
         with:
@@ -31,8 +31,19 @@ jobs:
         run: |
           npm i
           npm run build:prod
-      - name: Push Build to Releases
-        uses: ncipollo/release-action@v1
+      - name: Upload to blob storage
+        uses: azure/CLI@v1
         with:
-          artifacts: "dist/angular-githubaction/*"
-          token: ${{ secrets.TOKEN }}
+          azcliversion: 2.0.72
+          inlineScript: |
+              az storage blob upload-batch --account-name "fatwreckstock" --auth-mode key -d '$web' -s .
+      - name: Purge CDN endpoint
+        uses: azure/CLI@v1
+        with:
+          azcliversion: 2.0.72
+          inlineScript: |
+            az cdn endpoint purge --content-paths  "/*" --profile-name "fatwreckstock" --name "fatwreckstock" --resource-group "fatwreckstock"
+      - name: logout
+        run: |
+              az logout
+        if: always()
