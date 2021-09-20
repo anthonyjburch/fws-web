@@ -1,0 +1,23 @@
+<small class="text-muted">
+    <i>Last Updated: {{lastUpdated | date:'mediumDate'}} {{lastUpdated | date:'shortTime'}}</i>
+    <i>
+        <a class="ms-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+            aria-controls="collapseExample" *ngIf="recentlyUpdatedStock.length">
+            ...recently added
+        </a>
+    </i>
+</small>
+
+<p>
+
+</p>
+<div class="collapse mb-5" id="collapseExample">
+    <ul class="list-group">
+        <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let item of recentlyUpdatedStock">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">{{item.artist}}</div>
+            <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}} - {{item.format}}</a>
+          </div>
+        </li>
+    </ul>
+</div>

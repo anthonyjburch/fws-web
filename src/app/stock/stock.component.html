@@ -1,0 +1,79 @@
+<app-format-filter></app-format-filter>
+
+<div class="container" style="margin-top: 4rem;">
+    <div class="row">
+        <div class="col">
+            <app-recently-updated></app-recently-updated>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th class="d-md-none">Available</th>
+                        <th class="d-none d-md-table-cell">Artist</th>
+                        <th class="d-none d-md-table-cell">Title</th>
+                        <th>Format</th>
+                        <th class="d-none d-md-table-cell">Available</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of stock | slice: (page-1) * pageSize : page * pageSize">
+                        <td class="d-md-none">
+                            <div class="row">
+                                <div class="col">
+                                    <input class="form-check-input" type="checkbox" [disabled]="true"
+                                        [checked]="item.available">
+                                </div>
+                                <div class="col-9">
+                                    <div class="row">
+                                        <div class="col">
+                                            {{item.artist}}
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col">
+                                            <em class="text-muted"><a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a></em>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                        <td class="d-none d-md-table-cell">{{item.artist}}</td>
+                        <td class="d-none d-md-table-cell"><a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a></td>
+                        <td>{{item.description}}</td>
+                        <td class="d-none d-md-table-cell">{{item.available}}</td>
+                    </tr>
+                    <tr *ngIf="!stock.length">
+                        <td colspan="4">No items matching filters</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <small class="text-muted">{{stock.length}} Results</small>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="btn-toolbar">
+                <div class="dropdown me-2 mb-2">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                        id="btnPageSize" data-bs-toggle="dropdown" aria-expanded="false">
+                        {{pageSize}}
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="btnPageSize">
+                        <li><button class="dropdown-item" type="button" (click)="pageSize = 10">10</button></li>
+                        <li><button class="dropdown-item" type="button" (click)="pageSize = 25">25</button></li>
+                        <li><button class="dropdown-item" type="button" (click)="pageSize = 50">50</button></li>
+                        <li><button class="dropdown-item" type="button" (click)="pageSize = 100">100</button></li>
+                    </ul>
+                </div>
+                <ngb-pagination [(page)]="page" [pageSize]="pageSize" [collectionSize]="stock.length" [maxSize]="5"></ngb-pagination>
+            </div>
+        </div>
+    </div>
+</div>

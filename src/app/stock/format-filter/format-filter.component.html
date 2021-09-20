@@ -1,0 +1,61 @@
+<div class="container fixed-top bg-white pt-3">
+    <div class="row">
+        <div class="col">
+            <input type="text" class="form-control form-control-sm" placeholder="Search" [(ngModel)]="stockFilter.searchTerm" (ngModelChange)="onChange()">
+        </div>
+        <div class="col text-end">
+            <div class="btn-group">
+                <div class="dropdown me-3">
+                    <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside" aria-expanded="false">
+                        Format
+                    </button>
+                    <div class="dropdown-menu">
+                        <form class="px-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkVinyl" [(ngModel)]="stockFilter.vinyl"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="formatChkVinyl" class="form-check-label">Vinyl</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkCassette" [(ngModel)]="stockFilter.cassette"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="formatChkCassette" class="form-check-label">Cassette</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkCd" [(ngModel)]="stockFilter.cd"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="formatChkCd" class="form-check-label">Cd</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkDigital" [(ngModel)]="stockFilter.digital"
+                                    [ngModelOptions]="{standalone: true}" (change)="onChange()">
+                                <label for="formatChkDigital" class="form-check-label">Digital</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary btn-sm dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        data-bs-auto-close="outside" aria-expanded="false">
+                        Available
+                    </button>
+                    <div class="dropdown-menu">
+                        <form class="px-2">
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="availChkTrue" [(ngModel)]="stockFilter.availTrue"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="availChkTrue" class="form-check-label">Yes</label>
+                            </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="availChkFalse" [(ngModel)]="stockFilter.availFalse"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="availChkFalse" class="form-check-label">No</label>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
