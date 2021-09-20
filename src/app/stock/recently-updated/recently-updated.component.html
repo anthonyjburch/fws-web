@@ -15,9 +15,9 @@
     <ul class="list-group">
         <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let item of recentlyUpdatedStock">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">{{item.artist}} - <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a>
+            <div class="">{{item.artist}} - <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a>
             </div>
-            <p class="text-muted"><i>{{item.description}}</i></p>
+            <small class="text-muted"><i>{{item.description}}</i></small>
           </div>
         </li>
     </ul>
