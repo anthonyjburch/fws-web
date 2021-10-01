@@ -87,7 +87,7 @@ export class StockService {
     let compareDate = new Date();
     compareDate.setDate(compareDate.getDate() - 7);
 
-    this.recentlyUpdatedStockSubject.next(this.allStock.filter(i => new Date(i.dateUpdated) >= compareDate));
+    this.recentlyUpdatedStockSubject.next(this.allStock.filter(i => new Date(i.dateUpdated) >= compareDate && i.available));
   }
 
   getRecentlyUpdatedStock(): Observable<Item[]> {
