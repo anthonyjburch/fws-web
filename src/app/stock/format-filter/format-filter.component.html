@@ -28,6 +28,11 @@
                                 <label for="formatChkCd" class="form-check-label">Cd</label>
                             </div>
                             <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkDvd" [(ngModel)]="stockFilter.dvd"
+                                    [ngModelOptions]="{standalone: true}" (ngModelChange)="onChange()">
+                                <label for="formatChkDvd" class="form-check-label">Dvd</label>
+                            </div>
+                            <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="formatChkDigital" [(ngModel)]="stockFilter.digital"
                                     [ngModelOptions]="{standalone: true}" (change)="onChange()">
                                 <label for="formatChkDigital" class="form-check-label">Digital</label>

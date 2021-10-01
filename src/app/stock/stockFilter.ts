@@ -5,5 +5,6 @@ export interface StockFilter {
     cassette: boolean,
     cd: boolean,
     digital: boolean,
+    dvd: boolean,
     searchTerm: string
 }

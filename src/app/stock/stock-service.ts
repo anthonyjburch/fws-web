@@ -23,6 +23,7 @@ export class StockService {
       vinyl: true,
       cassette: false,
       cd: false,
+      dvd: false,
       digital: false
     }
   }
@@ -60,6 +61,10 @@ export class StockService {
 
     if (!filter.cd) {
       tempList = tempList.filter(i => i.format.toLowerCase() !== 'cd');
+    }
+
+    if (!filter.dvd) {
+      tempList = tempList.filter(i => i.format.toLowerCase() !== 'dvd');
     }
 
     if (!filter.digital) {
