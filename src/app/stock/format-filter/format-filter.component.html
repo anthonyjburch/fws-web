@@ -37,6 +37,11 @@
                                     [ngModelOptions]="{standalone: true}" (change)="onChange()">
                                 <label for="formatChkDigital" class="form-check-label">Digital</label>
                             </div>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" id="formatChkMerch" [(ngModel)]="stockFilter.merch"
+                                    [ngModelOptions]="{standalone: true}" (change)="onChange()">
+                                <label for="formatChkMerch" class="form-check-label">Merch</label>
+                            </div>
                         </form>
                     </div>
                 </div>
