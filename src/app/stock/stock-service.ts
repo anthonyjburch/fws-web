@@ -24,7 +24,8 @@ export class StockService {
       cassette: false,
       cd: false,
       dvd: false,
-      digital: false
+      digital: false,
+      merch: false
     }
   }
 
@@ -69,6 +70,10 @@ export class StockService {
 
     if (!filter.digital) {
       tempList = tempList.filter(i => i.format.toLowerCase() !== 'digital')
+    }
+
+    if (!filter.merch) {
+      tempList = tempList.filter(i => i.format.toLowerCase() !== 'merch')
     }
 
     if (filter.searchTerm) {

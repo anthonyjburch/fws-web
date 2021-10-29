@@ -6,5 +6,6 @@ export interface StockFilter {
     cd: boolean,
     digital: boolean,
     dvd: boolean,
+    merch: boolean,
     searchTerm: string
 }
