@@ -1,4 +1,4 @@
-<small class="text-muted">
+<!-- <small class="text-muted">
     <i>Last Updated: {{lastUpdated | date:'mediumDate'}} {{lastUpdated | date:'shortTime'}}</i>
     <i>
         <a class="ms-3" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
@@ -12,13 +12,40 @@
 
 </p>
 <div class="collapse mb-5" id="collapseExample">
-    <ul class="list-group">
-        <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let item of recentlyUpdatedStock">
-          <div class="ms-2 me-auto">
-            <div class="">{{item.artist}} - <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a>
+    
+</div> -->
+<small class="text-muted">
+    <i>Last Updated: {{lastUpdated | date:'mediumDate'}} {{lastUpdated | date:'shortTime'}}</i>
+    <i>
+        <a class="ms-3" data-bs-toggle="modal" href="#recentUpdatesModal" role="button"
+            *ngIf="recentlyUpdatedStock.length">
+            ...recently Updated
+        </a>
+    </i>
+</small>
+
+<!-- Modal -->
+<div class="modal fade" id="recentUpdatesModal" tabindex="-1" aria-labelledby="recentUpdatesModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="recentUpdatesModalLabel">Recently Updated</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <small class="text-muted"><i>{{item.description}}</i></small>
-          </div>
-        </li>
-    </ul>
+            <div class="modal-body">
+                <ul class="list-group">
+                    <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let item of recentlyUpdatedStock">
+                      <div class="ms-2 me-auto">
+                        <div class="">{{item.artist}} - <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a>
+                        </div>
+                        <small class="text-muted"><i>{{item.description}}</i></small>
+                      </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
 </div>
