@@ -1,7 +1,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     select:focus,
     textarea:focus,
-    input:focus {
+    input[type="text"]:focus {
         font-size: 16px;
         background: #eee;
     }
@@ -10,7 +10,7 @@
 @media screen and (-webkit-min-device-pixel-ratio: 0) {
     select,
     textarea,
-    input {
+    input[type="text"] {
         font-size: 16px;
     }
 }
