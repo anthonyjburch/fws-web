@@ -10,6 +10,7 @@ import { StockService } from '../stock-service';
 })
 export class RecentlyUpdatedComponent implements OnInit {
   lastUpdated: Date = new Date();
+  vinylOnly: boolean = true;
   recentlyUpdatedStock: Item[] = [];
 
   constructor(private stockService: StockService, private settingsService: SettingsService) { }

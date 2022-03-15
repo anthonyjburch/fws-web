@@ -25,7 +25,8 @@
 </small>
 
 <!-- Modal -->
-<div class="modal fade" id="recentUpdatesModal" tabindex="-1" aria-labelledby="recentUpdatesModalLabel" aria-hidden="true">
+<div class="modal fade" id="recentUpdatesModal" tabindex="-1" aria-labelledby="recentUpdatesModalLabel"
+    aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
@@ -33,14 +34,25 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" role="switch" id="chKVinylOnly" [(ngModel)]="vinylOnly">
+                    <label class="form-check-label" for="chKVinylOnly">
+                        <small class="text-muted">Show vinyl only</small>
+                    </label>
+                  </div>
                 <ul class="list-group">
-                    <li class="list-group-item d-flex justify-content-between align-items-start" *ngFor="let item of recentlyUpdatedStock">
-                      <div class="ms-2 me-auto">
-                        <div class="">{{item.artist}} - <a href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}" target="_blank">{{item.title}}</a>
-                        </div>
-                        <small class="text-muted"><i>{{item.description}}</i></small>
-                      </div>
-                    </li>
+                    <ng-container *ngFor="let item of recentlyUpdatedStock">
+                        <li class="list-group-item d-flex justify-content-between align-items-start"
+                            *ngIf="!vinylOnly || (vinylOnly && item.format === 'vinyl')">
+                            <div class="ms-2 me-auto">
+                                <div class="">{{item.artist}} - <a
+                                        href="https://fatwreck.com/collections/new-releases/products/{{item.handle}}"
+                                        target="_blank">{{item.title}}</a>
+                                </div>
+                                <small class="text-muted"><i>{{item.description}}</i></small>
+                            </div>
+                        </li>
+                    </ng-container>
                 </ul>
             </div>
             <div class="modal-footer">
