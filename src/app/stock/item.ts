@@ -6,5 +6,6 @@ export interface Item {
     description: string;
     format: string;
     available: boolean;
+    quantity: number;
     dateUpdated: Date;
   }
