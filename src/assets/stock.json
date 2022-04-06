@@ -1,13 +1,85 @@
 [
     {
+    "id": 41997834748066,
+    "handle": "descendents-cool-to-be-you-skateboard-vinyl-bundle",
+    "artist": "Descendents",
+    "title": "Cool To Be You Skateboard/Vinyl BUNDLE",
+    "description": "Skate Deck (SHIPS JUNE)",
+    "format": "merch",
+    "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:05.5159966Z"
+    },
+    {
+    "id": 41997746569378,
+    "handle": "cool-to-be-you",
+    "artist": "Descendents",
+    "title": "Cool To Be You",
+    "description": "COLORED VINYL + DIGI (LIMIT ONE)",
+    "format": "vinyl",
+    "available": true,
+    "quantity": 125,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:05.5160462Z"
+    },
+    {
+    "id": 9347736993828,
+    "handle": "cool-to-be-you",
+    "artist": "Descendents",
+    "title": "Cool To Be You",
+    "description": "CD + DIGI",
+    "format": "cd",
+    "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:06.1734527Z"
+    },
+    {
+    "id": 9347737026596,
+    "handle": "cool-to-be-you",
+    "artist": "Descendents",
+    "title": "Cool To Be You",
+    "description": "LP + DIGI",
+    "format": "vinyl",
+    "available": false,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:06.1734791Z"
+    },
+    {
+    "id": 9347737059364,
+    "handle": "cool-to-be-you",
+    "artist": "Descendents",
+    "title": "Cool To Be You",
+    "description": "DIGITAL",
+    "format": "digital",
+    "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:06.1735044Z"
+    },
+    {
+    "id": 41997734150306,
+    "handle": "descendents-cool-to-be-you-skateboard",
+    "artist": "Descendents",
+    "title": "Descendents - Cool To Be You Skateboard",
+    "description": "Skate Deck (SHIPS JUNE)",
+    "format": "merch",
+    "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "2022-04-06T20:00:06.1735408Z"
+    },
+    {
     "id": 41926831505570,
     "handle": "hofx",
     "artist": "NOFX",
     "title": "HOFX",
     "description": "Colored Vinyl 10\"",
     "format": "vinyl",
-    "available": true,
-    "quantity": 706,
+    "available": false,
+    "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-22T19:00:05.0910802Z"
     },
@@ -126,7 +198,7 @@
     "title": "The Lawrence Arms Mother Teresa T-Shirt",
     "description": "T-Shirt Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9125758Z"
@@ -138,7 +210,7 @@
     "title": "The Lawrence Arms Mother Teresa T-Shirt",
     "description": "T-Shirt Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9126005Z"
@@ -667,7 +739,7 @@
     "description": "COLORED VINYL + Extra Small T-",
     "format": "vinyl",
     "available": true,
-    "quantity": 3,
+    "quantity": 2,
     "productType": "Merch",
     "dateUpdated": "2022-02-17T19:00:10.3036344Z"
     },
@@ -955,7 +1027,7 @@
     "description": "COLORED VINYL + Extra Small T-",
     "format": "vinyl",
     "available": true,
-    "quantity": 3,
+    "quantity": 2,
     "productType": "Merch",
     "dateUpdated": "2022-02-17T19:00:10.304413Z"
     },
@@ -1111,7 +1183,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 481,
+    "quantity": 477,
     "productType": "Merch",
     "dateUpdated": "2022-02-15T20:00:05.4124885Z"
     },
@@ -1255,7 +1327,7 @@
     "description": "Vinyl + DIGI (SHIPS JUNE)",
     "format": "vinyl",
     "available": true,
-    "quantity": 843,
+    "quantity": 829,
     "productType": "Merch",
     "dateUpdated": "2021-12-08T20:00:04.9548798Z"
     },
@@ -1326,7 +1398,7 @@
     "title": "Bad Astronaut T-Shirt",
     "description": "Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9137855Z"
@@ -1411,7 +1483,7 @@
     "description": "7\" of the Month Club 2019",
     "format": "vinyl",
     "available": true,
-    "quantity": 42,
+    "quantity": 33,
     "productType": "Merch",
     "dateUpdated": "2022-02-17T00:00:04.6925104Z"
     },
@@ -1423,7 +1495,7 @@
     "description": "COLORED VINYL (VIOLET)",
     "format": "vinyl",
     "available": true,
-    "quantity": 142,
+    "quantity": 135,
     "productType": "Merch",
     "dateUpdated": "2022-02-17T19:00:10.3049248Z"
     },
@@ -1435,7 +1507,7 @@
     "description": "LP",
     "format": "vinyl",
     "available": true,
-    "quantity": 840,
+    "quantity": 839,
     "productType": "Merch",
     "dateUpdated": "2021-11-05T14:57:30.4167094Z"
     },
@@ -1459,7 +1531,7 @@
     "description": "MEDIUM T- + COLOR 7\"",
     "format": "vinyl",
     "available": true,
-    "quantity": 10,
+    "quantity": 9,
     "productType": "Merch",
     "dateUpdated": "2021-12-17T21:00:04.6992573Z"
     },
@@ -1519,7 +1591,7 @@
     "description": "25th Anniv COLORED 7inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 337,
+    "quantity": 324,
     "productType": "Merch",
     "dateUpdated": "2021-12-01T00:00:04.9514501Z"
     },
@@ -1638,7 +1710,7 @@
     "title": "Propagandhi - 'Today's Empires, Tomorrow's Ashes' T-Shirt",
     "description": "T-Shirt 2XL",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9140153Z"
@@ -1758,7 +1830,7 @@
     "title": "Survival Of The Fattest T-Shirt",
     "description": "Extra Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-02-11T19:00:04.5556341Z"
@@ -1866,7 +1938,7 @@
     "title": "Black FAT Logo Shorts/Trunks",
     "description": "Shorts Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -2010,7 +2082,7 @@
     "title": "Strung Out - Suburban Teenage Wasteland Blues T-Shirt",
     "description": "Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -2071,7 +2143,7 @@
     "description": "COLORED VINYL + Extra Extra Large T-",
     "format": "vinyl",
     "available": true,
-    "quantity": 13,
+    "quantity": 12,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.914256Z"
     },
@@ -2095,7 +2167,7 @@
     "description": "Colored Vinyl + DIGITAL",
     "format": "vinyl",
     "available": true,
-    "quantity": 233,
+    "quantity": 229,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2179,7 +2251,7 @@
     "description": "COLORED VINYL + Extra Extra Large T- + DIGI (SHIPS JAN.)",
     "format": "vinyl",
     "available": true,
-    "quantity": 5,
+    "quantity": 4,
     "productType": "Merch",
     "dateUpdated": "2022-03-02T01:00:04.7762594Z"
     },
@@ -2203,7 +2275,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 870,
+    "quantity": 869,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2251,7 +2323,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 862,
+    "quantity": 859,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2383,7 +2455,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 437,
+    "quantity": 433,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2419,7 +2491,7 @@
     "description": "COLORED LP BUNDLE + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 37,
+    "quantity": 3,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T20:00:04.8082985Z"
     },
@@ -2443,7 +2515,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 4618,
+    "quantity": 400,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2539,7 +2611,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 865,
+    "quantity": 864,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -2610,7 +2682,7 @@
     "title": "Fat 'Pride' Shirt",
     "description": "T-Shirt Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -2694,7 +2766,7 @@
     "title": "Swingin Utters - A Juvenile Product Of The Working Class T-shirt",
     "description": "Medium",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -2718,7 +2790,7 @@
     "title": "Swingin Utters - A Juvenile Product Of The Working Class T-shirt",
     "description": "Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -2994,10 +3066,10 @@
     "title": "Most Useless Songs",
     "description": "LP + DIGI",
     "format": "vinyl",
-    "available": false,
-    "quantity": 0,
+    "available": true,
+    "quantity": 199,
     "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
+    "dateUpdated": "2022-03-24T20:00:34.3084128Z"
     },
     {
     "id": 39624426356898,
@@ -3451,7 +3523,7 @@
     "description": "Vinyl + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 1368,
+    "quantity": 1361,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -3727,7 +3799,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 248,
+    "quantity": 247,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -3750,10 +3822,10 @@
     "title": "Fat Wreck Chords Gym Bag",
     "description": "Gym Bag",
     "format": "merch",
-    "available": false,
+    "available": true,
     "quantity": 0,
     "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
+    "dateUpdated": "2022-03-23T22:00:42.9055786Z"
     },
     {
     "id": 37215986417826,
@@ -3763,7 +3835,7 @@
     "description": "10\" + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 699,
+    "quantity": 695,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -3804,18 +3876,6 @@
     "dateUpdated": "0001-01-01T00:00:00"
     },
     {
-    "id": 37215967674530,
-    "handle": "look-forward-to-failure",
-    "artist": "The Ataris",
-    "title": "Look Forward To Failure",
-    "description": "Colored Vinyl 10\" + DIGI",
-    "format": "vinyl",
-    "available": false,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "2021-12-01T00:00:04.9522856Z"
-    },
-    {
     "id": 37215970918562,
     "handle": "look-forward-to-failure",
     "artist": "The Ataris",
@@ -3823,7 +3883,7 @@
     "description": "10\" + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 711,
+    "quantity": 710,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -3859,7 +3919,7 @@
     "description": "10\" + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 438,
+    "quantity": 432,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4002,7 +4062,7 @@
     "title": "NOFX 'Suck Live' Logo T-Shirt",
     "description": "Medium",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9155051Z"
@@ -4075,7 +4135,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 73,
+    "quantity": 68,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4123,7 +4183,7 @@
     "description": "7inch",
     "format": "vinyl",
     "available": true,
-    "quantity": 203,
+    "quantity": 201,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4134,7 +4194,7 @@
     "title": "FAT 'Daily Grind' Coffee Bundle",
     "description": "FAT Coffee BUNDLE",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -4146,7 +4206,7 @@
     "title": "Fat Wreck Chords 'Daily Grind' Coffee",
     "description": "Daily Grind Coffee",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2021-12-07T21:00:04.4608255Z"
@@ -4206,7 +4266,7 @@
     "title": "Lagwagon OG Logo T-Shirt",
     "description": "Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-02-09T23:00:04.4292937Z"
@@ -4279,7 +4339,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 379,
+    "quantity": 375,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4339,7 +4399,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 181,
+    "quantity": 180,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4422,7 +4482,7 @@
     "title": "No Use For A Name - Flame T-Shirt",
     "description": "Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-02-09T23:00:04.4293817Z"
@@ -4447,7 +4507,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 187,
+    "quantity": 178,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4494,7 +4554,7 @@
     "title": "NOFX / Frank Turner - West Coast vs. Wessex T-Shirt",
     "description": "T-Shirt Small",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9158459Z"
@@ -4518,7 +4578,7 @@
     "title": "NOFX / Frank Turner - West Coast vs. Wessex T-Shirt",
     "description": "T-Shirt Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9158573Z"
@@ -4542,7 +4602,7 @@
     "title": "NOFX / Frank Turner - West Coast vs. Wessex T-Shirt",
     "description": "T-Shirt Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-09T01:00:04.9158694Z"
@@ -4579,7 +4639,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 116,
+    "quantity": 112,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4711,7 +4771,7 @@
     "description": "7\" + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 182,
+    "quantity": 181,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4747,7 +4807,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 218,
+    "quantity": 215,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4807,7 +4867,7 @@
     "description": "12inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 808,
+    "quantity": 794,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -4903,7 +4963,7 @@
     "description": "Vinyl + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 393,
+    "quantity": 384,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2330571Z"
     },
@@ -5071,7 +5131,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 493,
+    "quantity": 487,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2331595Z"
     },
@@ -5131,7 +5191,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 369,
+    "quantity": 365,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5347,7 +5407,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 151,
+    "quantity": 148,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5443,7 +5503,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 458,
+    "quantity": 457,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5491,7 +5551,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 318,
+    "quantity": 316,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5551,7 +5611,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 864,
+    "quantity": 863,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5599,7 +5659,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 652,
+    "quantity": 651,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5683,7 +5743,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 208,
+    "quantity": 207,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5731,7 +5791,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 114,
+    "quantity": 112,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -5959,7 +6019,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 445,
+    "quantity": 443,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -6067,7 +6127,7 @@
     "description": "LP + Digi",
     "format": "vinyl",
     "available": true,
-    "quantity": 9848,
+    "quantity": 9847,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -6655,7 +6715,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 382,
+    "quantity": 374,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -6702,10 +6762,10 @@
     "title": "Hold Fast (Acoustic Sessions)",
     "description": "LP + DIGI",
     "format": "vinyl",
-    "available": false,
-    "quantity": 0,
+    "available": true,
+    "quantity": 500,
     "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
+    "dateUpdated": "2022-04-04T20:01:09.8014558Z"
     },
     {
     "id": 9347946872868,
@@ -6739,7 +6799,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 283,
+    "quantity": 280,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.234499Z"
     },
@@ -6943,7 +7003,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 253,
+    "quantity": 250,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7039,7 +7099,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 285,
+    "quantity": 284,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7087,7 +7147,7 @@
     "description": "7inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 103,
+    "quantity": 101,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7219,7 +7279,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 766,
+    "quantity": 765,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7278,10 +7338,10 @@
     "title": "Stella Sapiente",
     "description": "LP + DIGI",
     "format": "vinyl",
-    "available": false,
-    "quantity": 0,
+    "available": true,
+    "quantity": 500,
     "productType": "Merch",
-    "dateUpdated": "2022-02-10T21:00:05.1687921Z"
+    "dateUpdated": "2022-04-04T20:01:19.4945889Z"
     },
     {
     "id": 9347927965732,
@@ -7351,7 +7411,7 @@
     "description": "LP",
     "format": "vinyl",
     "available": true,
-    "quantity": 276,
+    "quantity": 274,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7411,7 +7471,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 380,
+    "quantity": 379,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7555,7 +7615,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 169,
+    "quantity": 168,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7806,7 +7866,7 @@
     "title": "BLACK Zip-Up Hoodie",
     "description": "Hoodie Extra Extra Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -7819,7 +7879,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 258,
+    "quantity": 252,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -7963,7 +8023,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 287,
+    "quantity": 284,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2354679Z"
     },
@@ -8011,7 +8071,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 488,
+    "quantity": 477,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2355065Z"
     },
@@ -8083,7 +8143,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 401,
+    "quantity": 395,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8095,7 +8155,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 487,
+    "quantity": 476,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2355742Z"
     },
@@ -8239,7 +8299,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 842,
+    "quantity": 835,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8443,7 +8503,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 160,
+    "quantity": 157,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8491,7 +8551,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 807,
+    "quantity": 806,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8515,7 +8575,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 384,
+    "quantity": 383,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8719,7 +8779,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 162,
+    "quantity": 160,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8767,7 +8827,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 149,
+    "quantity": 145,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8803,7 +8863,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 312,
+    "quantity": 307,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -8850,7 +8910,7 @@
     "title": "DARK GREY Zip-Up Hoodie on American Apparel",
     "description": "Sweatshirt Medium",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -9055,7 +9115,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 717,
+    "quantity": 716,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -9199,7 +9259,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 4569,
+    "quantity": 4567,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -9475,7 +9535,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 1529,
+    "quantity": 1528,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -9727,7 +9787,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 478,
+    "quantity": 475,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -9847,7 +9907,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 165,
+    "quantity": 163,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -9943,7 +10003,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 398,
+    "quantity": 395,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10159,7 +10219,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 434,
+    "quantity": 431,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10207,7 +10267,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 519,
+    "quantity": 517,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10327,7 +10387,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 303,
+    "quantity": 302,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10363,7 +10423,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 486,
+    "quantity": 484,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10399,7 +10459,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 492,
+    "quantity": 485,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2380294Z"
     },
@@ -10495,7 +10555,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 402,
+    "quantity": 401,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10783,7 +10843,7 @@
     "description": "7inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 182,
+    "quantity": 180,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -10879,7 +10939,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 379,
+    "quantity": 378,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -11059,7 +11119,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 473,
+    "quantity": 461,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2389141Z"
     },
@@ -11155,7 +11215,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 331,
+    "quantity": 330,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -11179,7 +11239,7 @@
     "description": "Color LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 24,
+    "quantity": 19,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -11635,7 +11695,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 441,
+    "quantity": 432,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -11934,7 +11994,7 @@
     "title": "Fat Logo Shirt RED",
     "description": "T-Shirt Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -12018,7 +12078,7 @@
     "title": "Fat Logo Shirt BLACK",
     "description": "T-Shirt Large",
     "format": "merch",
-    "available": true,
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -12187,7 +12247,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 205,
+    "quantity": 204,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -12259,7 +12319,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 488,
+    "quantity": 482,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2405839Z"
     },
@@ -12295,7 +12355,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 388,
+    "quantity": 382,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.240637Z"
     },
@@ -12331,7 +12391,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 469,
+    "quantity": 468,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -12367,7 +12427,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 432,
+    "quantity": 425,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -12403,7 +12463,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 412,
+    "quantity": 406,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -12991,7 +13051,7 @@
     "description": "12inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 831,
+    "quantity": 830,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -13315,7 +13375,7 @@
     "description": "7inch + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 9722,
+    "quantity": 9721,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -14179,7 +14239,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 86,
+    "quantity": 83,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -14287,7 +14347,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 487,
+    "quantity": 482,
     "productType": "Merch",
     "dateUpdated": "2022-02-25T20:00:05.9530769Z"
     },
@@ -14323,7 +14383,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 87,
+    "quantity": 82,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -14743,7 +14803,7 @@
     "description": "2xLP + DIGITAL",
     "format": "vinyl",
     "available": true,
-    "quantity": 334,
+    "quantity": 333,
     "productType": "Merch",
     "dateUpdated": "2022-01-28T23:00:04.9301421Z"
     },
@@ -14779,7 +14839,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 496,
+    "quantity": 491,
     "productType": "Merch",
     "dateUpdated": "2022-03-10T01:00:05.2450604Z"
     },
@@ -15319,7 +15379,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 509,
+    "quantity": 506,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -15379,7 +15439,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 467,
+    "quantity": 464,
     "productType": "Merch",
     "dateUpdated": "2022-02-25T20:00:05.9551966Z"
     },
@@ -15487,7 +15547,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 465,
+    "quantity": 464,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -15571,7 +15631,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 65,
+    "quantity": 62,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -16104,42 +16164,6 @@
     "dateUpdated": "0001-01-01T00:00:00"
     },
     {
-    "id": 9347736993828,
-    "handle": "cool-to-be-you",
-    "artist": "Descendents",
-    "title": "Cool To Be You",
-    "description": "CD + DIGI",
-    "format": "cd",
-    "available": true,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
-    },
-    {
-    "id": 9347737026596,
-    "handle": "cool-to-be-you",
-    "artist": "Descendents",
-    "title": "Cool To Be You",
-    "description": "LP + DIGI",
-    "format": "vinyl",
-    "available": false,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
-    },
-    {
-    "id": 9347737059364,
-    "handle": "cool-to-be-you",
-    "artist": "Descendents",
-    "title": "Cool To Be You",
-    "description": "DIGITAL",
-    "format": "digital",
-    "available": true,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
-    },
-    {
     "id": 9347736698916,
     "handle": "live-in-a-dive-subhumans",
     "artist": "Subhumans",
@@ -16471,7 +16495,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 76,
+    "quantity": 70,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -16615,7 +16639,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 291,
+    "quantity": 290,
     "productType": "Merch",
     "dateUpdated": "2021-12-03T21:00:04.459899Z"
     },
@@ -16663,7 +16687,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 9900,
+    "quantity": 9899,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -16723,7 +16747,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 374,
+    "quantity": 335,
     "productType": "Merch",
     "dateUpdated": "2022-03-22T17:00:05.1705594Z"
     },
@@ -16795,7 +16819,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 173,
+    "quantity": 172,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -17023,7 +17047,7 @@
     "description": "2xLP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 313,
+    "quantity": 311,
     "productType": "Merch",
     "dateUpdated": "2022-01-28T23:00:04.9356066Z"
     },
@@ -17155,7 +17179,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 162,
+    "quantity": 158,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -17203,7 +17227,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 252,
+    "quantity": 250,
     "productType": "Merch",
     "dateUpdated": "2021-12-03T21:00:04.4610065Z"
     },
@@ -17328,18 +17352,6 @@
     "dateUpdated": "0001-01-01T00:00:00"
     },
     {
-    "id": 9347718512676,
-    "handle": "live-in-a-dive-bracket",
-    "artist": "Bracket",
-    "title": "Live in a Dive: Bracket",
-    "description": "LP + DIGI",
-    "format": "vinyl",
-    "available": false,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
-    },
-    {
     "id": 9347718479908,
     "handle": "live-in-a-dive-bracket",
     "artist": "Bracket",
@@ -17347,6 +17359,18 @@
     "description": "CD + DIGI",
     "format": "cd",
     "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "0001-01-01T00:00:00"
+    },
+    {
+    "id": 9347718512676,
+    "handle": "live-in-a-dive-bracket",
+    "artist": "Bracket",
+    "title": "Live in a Dive: Bracket",
+    "description": "LP + DIGI",
+    "format": "vinyl",
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -17407,7 +17431,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 168,
+    "quantity": 167,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -17671,7 +17695,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 121,
+    "quantity": 119,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -17827,7 +17851,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 61,
+    "quantity": 59,
     "productType": "Merch",
     "dateUpdated": "2021-12-01T01:00:04.3157967Z"
     },
@@ -18187,7 +18211,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 361,
+    "quantity": 359,
     "productType": "Merch",
     "dateUpdated": "2022-01-28T23:00:04.9387109Z"
     },
@@ -18468,18 +18492,6 @@
     "dateUpdated": "0001-01-01T00:00:00"
     },
     {
-    "id": 9347697704996,
-    "handle": "when-all-else-fails",
-    "artist": "Bracket",
-    "title": "When All Else Fails",
-    "description": "LP + DIGI",
-    "format": "vinyl",
-    "available": false,
-    "quantity": 0,
-    "productType": "Merch",
-    "dateUpdated": "0001-01-01T00:00:00"
-    },
-    {
     "id": 9347697672228,
     "handle": "when-all-else-fails",
     "artist": "Bracket",
@@ -18487,6 +18499,18 @@
     "description": "CD + DIGI",
     "format": "cd",
     "available": true,
+    "quantity": 0,
+    "productType": "Merch",
+    "dateUpdated": "0001-01-01T00:00:00"
+    },
+    {
+    "id": 9347697704996,
+    "handle": "when-all-else-fails",
+    "artist": "Bracket",
+    "title": "When All Else Fails",
+    "description": "LP + DIGI",
+    "format": "vinyl",
+    "available": false,
     "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
@@ -19134,8 +19158,8 @@
     "title": "Call To Arms",
     "description": "Colored Vinyl + DIGI",
     "format": "vinyl",
-    "available": true,
-    "quantity": 7,
+    "available": false,
+    "quantity": 0,
     "productType": "Merch",
     "dateUpdated": "2022-03-03T20:00:04.9054374Z"
     },
@@ -19963,7 +19987,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 682,
+    "quantity": 675,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -20731,7 +20755,7 @@
     "description": "LP + DIGI",
     "format": "vinyl",
     "available": true,
-    "quantity": 297,
+    "quantity": 296,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
@@ -20767,7 +20791,7 @@
     "description": "7inch",
     "format": "vinyl",
     "available": true,
-    "quantity": 245,
+    "quantity": 239,
     "productType": "Merch",
     "dateUpdated": "0001-01-01T00:00:00"
     },
